@@ -10,6 +10,7 @@
             "includes/Queue.h",
             "includes/NativeInterface.h"
         ],
+        "win_delay_load_hook": "true",
         "include_dirs": [
             "<!(node -e \"require('nan')\")",
             "includes"
